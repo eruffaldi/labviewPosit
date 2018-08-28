@@ -415,6 +415,7 @@
 					<Item Name="Dependencies" Type="Dependencies"/>
 					<Item Name="Build Specifications" Type="Build"/>
 				</Item>
+				<Item Name="posit.lvlib" Type="Library" URL="../posit.lvlib"/>
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>

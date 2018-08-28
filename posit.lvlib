@@ -4,4 +4,26 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="controls" Type="Folder">
+		<Item Name="constants.ctl" Type="VI" URL="../posit_library/constants.ctl"/>
+		<Item Name="expform.ctl" Type="VI" URL="../posit_library/expform.ctl"/>
+		<Item Name="unpacked.ctl" Type="VI" URL="../posit_library/unpacked.ctl"/>
+	</Item>
+	<Item Name="public" Type="Folder">
+		<Item Name="cast_to_float.vi" Type="VI" URL="../posit_library/cast_to_float.vi"/>
+		<Item Name="cast_from_int.vi" Type="VI" URL="../posit_library/cast_from_int.vi"/>
+		<Item Name="cast_from_float.vi" Type="VI" URL="../posit_library/cast_from_float.vi"/>
+		<Item Name="sqrt.vi" Type="VI" URL="../posit_library/sqrt.vi"/>
+		<Item Name="inv.vi" Type="VI" URL="../posit_library/inv.vi"/>
+		<Item Name="mul.vi" Type="VI" URL="../posit_library/mul.vi"/>
+		<Item Name="div.vi" Type="VI" URL="../posit_library/div.vi"/>
+		<Item Name="decode.vi" Type="VI" URL="../posit_library/decode.vi"/>
+		<Item Name="add.vi" Type="VI" URL="../posit_library/add.vi"/>
+		<Item Name="encode.vi" Type="VI" URL="../posit_library/encode.vi"/>
+		<Item Name="pack.vi" Type="VI" URL="../posit_library/pack.vi"/>
+		<Item Name="unpack.vi" Type="VI" URL="../posit_library/unpack.vi"/>
+		<Item Name="twice.vi" Type="VI" URL="../posit_library/twice.vi"/>
+		<Item Name="cast_to_int.vi" Type="VI" URL="../posit_library/cast_to_int.vi"/>
+	</Item>
 </Library>
