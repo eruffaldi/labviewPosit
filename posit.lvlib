@@ -27,6 +27,8 @@
 		<Item Name="cast_to_int.vi" Type="VI" URL="../posit_library/cast_to_int.vi"/>
 	</Item>
 	<Item Name="private" Type="Folder">
+		<Item Name="findleftmostbitI16w.vi" Type="VI" URL="../posit_library/findleftmostbitI16w.vi"/>
+		<Item Name="findleftmostbit.vim" Type="VI" URL="../posit_library/findleftmostbit.vim"/>
 		<Item Name="findleftmostbitI16x.vi" Type="VI" URL="../posit_library/findleftmostbitI16x.vi"/>
 		<Item Name="decode_posit_rs.vi" Type="VI" URL="../posit_library/decode_posit_rs.vi"/>
 		<Item Name="keeponly_msb_I16.vi" Type="VI" URL="../posit_library/keeponly_msb_I16.vi"/>
