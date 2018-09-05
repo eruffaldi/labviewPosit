@@ -9,28 +9,30 @@
 		<Item Name="constants.ctl" Type="VI" URL="../posit_library/constants.ctl"/>
 		<Item Name="expform.ctl" Type="VI" URL="../posit_library/expform.ctl"/>
 		<Item Name="unpacked.ctl" Type="VI" URL="../posit_library/unpacked.ctl"/>
+		<Item Name="specialnumber.ctl" Type="VI" URL="../posit_library/specialnumber.ctl"/>
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="cast_to_float.vi" Type="VI" URL="../posit_library/cast_to_float.vi"/>
 		<Item Name="cast_from_int.vi" Type="VI" URL="../posit_library/cast_from_int.vi"/>
 		<Item Name="cast_from_float.vi" Type="VI" URL="../posit_library/cast_from_float.vi"/>
+		<Item Name="cast_to_int.vi" Type="VI" URL="../posit_library/cast_to_int.vi"/>
 		<Item Name="sqrt.vi" Type="VI" URL="../posit_library/sqrt.vi"/>
 		<Item Name="inv.vi" Type="VI" URL="../posit_library/inv.vi"/>
 		<Item Name="mul.vi" Type="VI" URL="../posit_library/mul.vi"/>
 		<Item Name="div.vi" Type="VI" URL="../posit_library/div.vi"/>
-		<Item Name="decode.vi" Type="VI" URL="../posit_library/decode.vi"/>
+		<Item Name="parse_posit.vi" Type="VI" URL="../posit_library/parse_posit.vi"/>
 		<Item Name="add.vi" Type="VI" URL="../posit_library/add.vi"/>
 		<Item Name="encode.vi" Type="VI" URL="../posit_library/encode.vi"/>
 		<Item Name="pack.vi" Type="VI" URL="../posit_library/pack.vi"/>
 		<Item Name="unpack.vi" Type="VI" URL="../posit_library/unpack.vi"/>
 		<Item Name="twice.vi" Type="VI" URL="../posit_library/twice.vi"/>
-		<Item Name="cast_to_int.vi" Type="VI" URL="../posit_library/cast_to_int.vi"/>
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Item Name="findleftmostbitI16w.vi" Type="VI" URL="../posit_library/findleftmostbitI16w.vi"/>
 		<Item Name="findleftmostbit.vim" Type="VI" URL="../posit_library/findleftmostbit.vim"/>
 		<Item Name="findleftmostbitI16x.vi" Type="VI" URL="../posit_library/findleftmostbitI16x.vi"/>
-		<Item Name="decode_posit_rs.vi" Type="VI" URL="../posit_library/decode_posit_rs.vi"/>
+		<Item Name="decode_posit_rs16.vi" Type="VI" URL="../posit_library/decode_posit_rs16.vi"/>
 		<Item Name="keeponly_msb_I16.vi" Type="VI" URL="../posit_library/keeponly_msb_I16.vi"/>
 	</Item>
+	<Item Name="halve.vi" Type="VI" URL="../posit_library/halve.vi"/>
 </Library>
