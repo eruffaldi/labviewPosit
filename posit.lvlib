@@ -10,9 +10,11 @@
 		<Item Name="expform.ctl" Type="VI" URL="../posit_library/expform.ctl"/>
 		<Item Name="unpacked.ctl" Type="VI" URL="../posit_library/unpacked.ctl"/>
 		<Item Name="specialnumber.ctl" Type="VI" URL="../posit_library/specialnumber.ctl"/>
+		<Item Name="posit16.ctl" Type="VI" URL="../posit_library/posit16.ctl"/>
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="cast_to_float.vi" Type="VI" URL="../posit_library/cast_to_float.vi"/>
+		<Item Name="halve.vi" Type="VI" URL="../posit_library/halve.vi"/>
 		<Item Name="cast_from_int.vi" Type="VI" URL="../posit_library/cast_from_int.vi"/>
 		<Item Name="cast_from_float.vi" Type="VI" URL="../posit_library/cast_from_float.vi"/>
 		<Item Name="cast_to_int.vi" Type="VI" URL="../posit_library/cast_to_int.vi"/>
@@ -20,19 +22,22 @@
 		<Item Name="inv.vi" Type="VI" URL="../posit_library/inv.vi"/>
 		<Item Name="mul.vi" Type="VI" URL="../posit_library/mul.vi"/>
 		<Item Name="div.vi" Type="VI" URL="../posit_library/div.vi"/>
-		<Item Name="parse_posit.vi" Type="VI" URL="../posit_library/parse_posit.vi"/>
+		<Item Name="pu_to_unp.vi" Type="VI" URL="../posit_library/pu_to_unp.vi"/>
 		<Item Name="add.vi" Type="VI" URL="../posit_library/add.vi"/>
-		<Item Name="encode.vi" Type="VI" URL="../posit_library/encode.vi"/>
-		<Item Name="pack.vi" Type="VI" URL="../posit_library/pack.vi"/>
-		<Item Name="unpack.vi" Type="VI" URL="../posit_library/unpack.vi"/>
+		<Item Name="unp_to_pu.vi" Type="VI" URL="../posit_library/unp_to_pu.vi"/>
 		<Item Name="twice.vi" Type="VI" URL="../posit_library/twice.vi"/>
+		<Item Name="unp_to_exp.vi" Type="VI" URL="../unp_to_exp.vi"/>
+		<Item Name="exp_to_unp.vi" Type="VI" URL="../exp_to_unp.vi"/>
 	</Item>
 	<Item Name="private" Type="Folder">
+		<Item Name="findleftmostbitI16iter.vi" Type="VI" URL="../posit_library/findleftmostbitI16iter.vi"/>
 		<Item Name="findleftmostbitI16w.vi" Type="VI" URL="../posit_library/findleftmostbitI16w.vi"/>
 		<Item Name="findleftmostbit.vim" Type="VI" URL="../posit_library/findleftmostbit.vim"/>
 		<Item Name="findleftmostbitI16x.vi" Type="VI" URL="../posit_library/findleftmostbitI16x.vi"/>
 		<Item Name="decode_posit_rs16.vi" Type="VI" URL="../posit_library/decode_posit_rs16.vi"/>
 		<Item Name="keeponly_msb_I16.vi" Type="VI" URL="../posit_library/keeponly_msb_I16.vi"/>
 	</Item>
-	<Item Name="halve.vi" Type="VI" URL="../posit_library/halve.vi"/>
+	<Item Name="anytype" Type="Folder">
+		<Item Name="float_add.vi" Type="VI" URL="../float_add.vi"/>
+	</Item>
 </Library>
